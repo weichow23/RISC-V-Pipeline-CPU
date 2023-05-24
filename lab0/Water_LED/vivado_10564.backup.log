@@ -1,0 +1,114 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  1 17:20:35 2023
+# Process ID: 10564
+# Current directory: E:/ComputerOrnazation/lab0/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19076 E:\ComputerOrnazation\lab0\Water_LED\Water_LED.xpr
+# Log file: E:/ComputerOrnazation/lab0/Water_LED/vivado.log
+# Journal file: E:/ComputerOrnazation/lab0/Water_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab0/Water_LED/Water_LED.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/ComputerOrnazation/lab0/Water_LED/Water_LED.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.426 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k160tffg676-2L
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1339.219 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1425.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.121 ; gain = 521.695
+set_property is_loc_fixed true [get_ports [list  CLK_i]]
+set_property is_loc_fixed true [get_ports [list  RSTn_i]]
+place_ports CLK_i W13
+place_ports RSTn_i W24
+place_ports {LED_o[3]} AB25
+place_ports {LED_o[2]} AB26
+place_ports {LED_o[1]} AC18
+place_ports {LED_o[0]} W23
+file mkdir E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new
+close [ open E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc w ]
+add_files -fileset constrs_1 E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc
+set_property target_constrs_file E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Mar  1 17:23:34 2023] Launched synth_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/Water_LED/Water_LED.runs/synth_1/runme.log
+[Wed Mar  1 17:23:34 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/Water_LED/Water_LED.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Mar  1 17:25:54 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/Water_LED/Water_LED.runs/impl_1/runme.log
+set_property package_pin "" [get_ports [list  CLK_i]]
+set_property package_pin "" [get_ports [list  RSTn_i]]
+set_property package_pin "" [get_ports [list  {LED_o[3]}]]
+set_property package_pin "" [get_ports [list  {LED_o[2]}]]
+set_property package_pin "" [get_ports [list  {LED_o[1]}]]
+set_property package_pin "" [get_ports [list  {LED_o[0]}]]
+place_ports RSTn_i W13
+place_ports {LED_o[1]} W24
+place_ports {LED_o[3]} AB25
+place_ports {LED_o[0]} AB26
+place_ports CLK_i AC18
+place_ports {LED_o[2]} W23
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Mar  1 17:34:50 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/Water_LED/Water_LED.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2167.910 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2316.148 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2316.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2316.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Mar  1 17:36:19 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/Water_LED/Water_LED.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Mar  1 17:36:23 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/Water_LED/Water_LED.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  1 17:38:28 2023...

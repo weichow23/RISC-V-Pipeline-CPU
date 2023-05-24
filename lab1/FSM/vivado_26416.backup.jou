@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  8 12:00:33 2023
+# Process ID: 26416
+# Current directory: E:/ComputerOrnazation/lab1/FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5284 E:\ComputerOrnazation\lab1\FSM\FSM.xpr
+# Log file: E:/ComputerOrnazation/lab1/FSM/vivado.log
+# Journal file: E:/ComputerOrnazation/lab1/FSM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab1/FSM/FSM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source FSM_tb.tcl
+close_sim
+launch_simulation
+source FSM_tb.tcl
+close_sim
+launch_simulation
+source FSM_tb.tcl
+close_sim
+launch_simulation
+source FSM_tb.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/ComputerOrnazation/lab1/FSM/FSM.srcs/sim_1/new/FSM_tb_generate.v w ]
+add_files -fileset sim_1 E:/ComputerOrnazation/lab1/FSM/FSM.srcs/sim_1/new/FSM_tb_generate.v
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source FSM_tb.tcl
+close_sim

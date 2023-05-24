@@ -1,0 +1,287 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  8 14:46:19 2023
+# Process ID: 25216
+# Current directory: E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/synth_1
+# Command line: vivado.exe -log muxctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source muxctrl.tcl
+# Log file: E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/synth_1/muxctrl.vds
+# Journal file: E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source muxctrl.tcl -notrace
+Command: synth_design -top muxctrl -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2224
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1129.141 ; gain = 19.336
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'muxctrl' [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/sources_1/new/muxctrl.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'muxctrl' (1#1) [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/sources_1/new/muxctrl.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1181.141 ; gain = 71.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1181.141 ; gain = 71.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1181.141 ; gain = 71.336
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1181.141 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc]
+WARNING: [Vivado 12-584] No ports matched 'I0[0]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[0]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[1]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[1]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[2]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[2]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[3]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[3]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[4]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I0[4]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[0]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[0]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[1]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[1]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[2]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[2]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[3]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[3]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[4]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I1[4]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_0[5]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_0[5]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_0[6]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_0[6]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_0[7]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_0[7]'. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/muxctrl_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/muxctrl_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1226.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1226.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1226.969 ; gain = 117.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1226.969 ; gain = 117.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1226.969 ; gain = 117.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1226.969 ; gain = 117.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.969 ; gain = 117.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1272.746 ; gain = 162.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1272.746 ; gain = 162.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1291.836 ; gain = 182.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     2|
+|2     |LUT4 |     1|
+|3     |LUT5 |     2|
+|4     |LUT6 |     3|
+|5     |IBUF |    13|
+|6     |OBUF |     5|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.602 ; gain = 188.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1298.602 ; gain = 142.969
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1298.602 ; gain = 188.797
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1310.688 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1312.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 26 Warnings, 26 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1312.840 ; gain = 203.035
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/synth_1/muxctrl.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file muxctrl_utilization_synth.rpt -pb muxctrl_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  8 14:46:46 2023...

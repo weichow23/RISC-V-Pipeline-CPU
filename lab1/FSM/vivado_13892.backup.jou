@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  8 14:12:27 2023
+# Process ID: 13892
+# Current directory: E:/ComputerOrnazation/lab1/FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31544 E:\ComputerOrnazation\lab1\FSM\FSM.xpr
+# Log file: E:/ComputerOrnazation/lab1/FSM/vivado.log
+# Journal file: E:/ComputerOrnazation/lab1/FSM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab1/FSM/FSM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source FSM_tb_generate.tcl
+close_sim
+launch_simulation
+source FSM_tb_generate.tcl
+close_sim
+launch_simulation
+source FSM_tb_generate.tcl
+close_sim

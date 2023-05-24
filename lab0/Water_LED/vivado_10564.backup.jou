@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  1 17:20:35 2023
+# Process ID: 10564
+# Current directory: E:/ComputerOrnazation/lab0/Water_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19076 E:\ComputerOrnazation\lab0\Water_LED\Water_LED.xpr
+# Log file: E:/ComputerOrnazation/lab0/Water_LED/vivado.log
+# Journal file: E:/ComputerOrnazation/lab0/Water_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab0/Water_LED/Water_LED.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+set_property is_loc_fixed true [get_ports [list  CLK_i]]
+set_property is_loc_fixed true [get_ports [list  RSTn_i]]
+place_ports CLK_i W13
+place_ports RSTn_i W24
+place_ports {LED_o[3]} AB25
+place_ports {LED_o[2]} AB26
+place_ports {LED_o[1]} AC18
+place_ports {LED_o[0]} W23
+file mkdir E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new
+close [ open E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc w ]
+add_files -fileset constrs_1 E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc
+set_property target_constrs_file E:/ComputerOrnazation/lab0/Water_LED/Water_LED.srcs/constrs_1/new/Water_LED.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property package_pin "" [get_ports [list  CLK_i]]
+set_property package_pin "" [get_ports [list  RSTn_i]]
+set_property package_pin "" [get_ports [list  {LED_o[3]}]]
+set_property package_pin "" [get_ports [list  {LED_o[2]}]]
+set_property package_pin "" [get_ports [list  {LED_o[1]}]]
+set_property package_pin "" [get_ports [list  {LED_o[0]}]]
+place_ports RSTn_i W13
+place_ports {LED_o[1]} W24
+place_ports {LED_o[3]} AB25
+place_ports {LED_o[0]} AB26
+place_ports CLK_i AC18
+place_ports {LED_o[2]} W23
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

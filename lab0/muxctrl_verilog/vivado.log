@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  8 14:45:19 2023
+# Process ID: 30084
+# Current directory: E:/ComputerOrnazation/lab0/muxctrl_verilog
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25576 E:\ComputerOrnazation\lab0\muxctrl_verilog\muxctrl_verilog.xpr
+# Log file: E:/ComputerOrnazation/lab0/muxctrl_verilog/vivado.log
+# Journal file: E:/ComputerOrnazation/lab0/muxctrl_verilog\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1109.148 ; gain = 0.000
+update_compile_order -fileset sources_1
+file mkdir E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1
+file mkdir E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new
+close [ open E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc w ]
+add_files -fileset constrs_1 E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.srcs/constrs_1/new/muxctrl.xdc
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Mar  8 14:46:16 2023] Launched synth_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/synth_1/runme.log
+[Wed Mar  8 14:46:16 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/impl_1/runme.log
+add_files -fileset utils_1 -norecurse E:/ComputerOrnazation/lab0/name.tcl
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files E:/ComputerOrnazation/lab0/name.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Mar  8 14:47:38 2023] Launched impl_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/impl_1/muxctrl.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {E:/ComputerOrnazation/lab0/muxctrl_verilog/muxctrl_verilog.runs/impl_1/muxctrl.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2688.828 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  8 14:50:18 2023...

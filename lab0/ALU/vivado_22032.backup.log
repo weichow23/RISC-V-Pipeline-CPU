@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  1 21:09:48 2023
+# Process ID: 22032
+# Current directory: E:/ComputerOrnazation/lab0/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27656 E:\ComputerOrnazation\lab0\ALU\ALU.xpr
+# Log file: E:/ComputerOrnazation/lab0/ALU/vivado.log
+# Journal file: E:/ComputerOrnazation/lab0/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab0/ALU/ALU.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/ComputerOrnazation/lab0/ALU/ALU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+[Wed Mar  1 21:11:22 2023] Launched synth_1...
+Run output will be captured here: E:/ComputerOrnazation/lab0/ALU/ALU.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "E:/ComputerOrnazation/lab0/ALU/ALU.sim/sim_1/behav/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  1 21:12:38 2023...
