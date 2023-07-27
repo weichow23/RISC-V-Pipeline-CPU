@@ -1,7 +1,0 @@
-Running: xsim.dir/OExp01_muxctrl_wrapper_behav/xsimk.exe -simmode gui -wdb OExp01_muxctrl_wrapper_behav.wdb -simrunnum 0 -socket 65476
-Design successfully loaded
-Design Loading Memory Usage: 7016 KB (Peak: 7016 KB)
-Design Loading CPU Usage: 31 ms
-Simulation completed
-Simulation Memory Usage: 7720 KB (Peak: 7720 KB)
-Simulation CPU Usage: 31 ms
