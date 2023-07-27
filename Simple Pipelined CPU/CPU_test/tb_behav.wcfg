@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6974500fs"></ZoomStartTime>
+      <ZoomEndTime time="7828501fs"></ZoomEndTime>
+      <Cursor1Time time="7550000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="92"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/PC_out_ID" type="array">
+      <obj_property name="ElementShortName">PC_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/PC4_out_MemWB" type="array">
+      <obj_property name="ElementShortName">PC4_out_MemWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC4_out_MemWB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/x3" type="array">
+      <obj_property name="ElementShortName">x3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/x24" type="array">
+      <obj_property name="ElementShortName">x24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x24[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/x26" type="array">
+      <obj_property name="ElementShortName">x26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x26[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/x27" type="array">
+      <obj_property name="ElementShortName">x27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x27[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/x1" type="array">
+      <obj_property name="ElementShortName">x1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u3/u9/Data_out_WB" type="array">
+      <obj_property name="ElementShortName">Data_out_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/wea" type="array">
+      <obj_property name="ElementShortName">wea[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m0/u1/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+</wave_config>

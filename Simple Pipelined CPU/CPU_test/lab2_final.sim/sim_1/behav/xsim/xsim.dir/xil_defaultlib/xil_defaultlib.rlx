@@ -1,0 +1,25 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/CPU_test.v,1683863298,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Ex_reg_Mem.v,,CPU_test,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/EX/ALU_more.v,1681094644,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/CPU_test.v,,ALU_more,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Ex_reg_Mem.v,1684756050,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID_reg_Ex.v,,Ex_reg_Mem,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/ImmGen.v,1683943917,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/MUX2T1_32.v,,ImmGen,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/Regs.v,1680523465,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/SCPU_ctrl.v,,Regs,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/SCPU_ctrl.v,1683950367,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.srcs/sim_1/new/tb.v,,SCPU_ctrl_more,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID_reg_Ex.v,1684754987,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/IF_reg_ID.v,,ID_reg_Ex,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/IF/REG32.v,1683465322,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/Regs.v,,REG32,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/IF_reg_ID.v,1684754317,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/ImmGen.v,,IF_reg_ID,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/MUX2T1_32.v,1682995831,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Mem_reg_WB.v,,MUX2T1_32,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Mem_reg_WB.v,1684756088,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_CPU.v,,Mem_reg_WB,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_CPU.v,1684301288,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_Ex.v,,Pipeline_CPU,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_Ex.v,1684755067,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_ID.v,,Pipeline_Ex,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_ID.v,1684754403,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_IF.v,,Pipeline_ID,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_IF.v,1683973332,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_Mem.v,,Pipeline_IF,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_Mem.v,1683973281,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_WB.v,,Pipeline_Mem,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_WB.v,1684297457,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/IF/REG32.v,,Pipeline_WB,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.ip_user_files/ip/RAM_B/sim/RAM_B.v,1683860222,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/EX/ALU_more.v,,RAM_B,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.srcs/sim_1/new/tb.v,1683793279,verilog,,,,tb,,,,,,,,
+E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.srcs/sources_1/ip/ROM_D_0/sim/ROM_D_0.v,1683974918,verilog,,E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.ip_user_files/ip/RAM_B/sim/RAM_B.v,,ROM_D_0,,,,,,,,

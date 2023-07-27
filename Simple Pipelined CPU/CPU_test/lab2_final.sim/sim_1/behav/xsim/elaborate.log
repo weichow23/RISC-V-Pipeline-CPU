@@ -1,0 +1,40 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 5fbe3a2583e4452897038b026c254bd3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'Rd_addr_out_ID' [E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/Pipeline_CPU.v:132]
+WARNING: [VRFC 10-3705] select index 0 into 'register' is out of bounds [E:/ComputerOrnazation/lab5_2_3/CPU_test/IP/ID/Regs.v:52]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="kin...
+Compiling module xil_defaultlib.RAM_B
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.ROM_D_0
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.SCPU_ctrl_more
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_Ex
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ALU_more
+Compiling module xil_defaultlib.Pipeline_Ex
+Compiling module xil_defaultlib.Ex_reg_Mem
+Compiling module xil_defaultlib.Pipeline_Mem
+Compiling module xil_defaultlib.Mem_reg_WB
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.CPU_test
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
