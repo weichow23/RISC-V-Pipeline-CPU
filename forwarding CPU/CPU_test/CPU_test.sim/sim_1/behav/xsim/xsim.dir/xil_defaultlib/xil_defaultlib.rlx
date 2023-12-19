@@ -1,0 +1,27 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/ComputerOrnazation/lab5_4/CPU_test/CPU_test.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/CPU_test.srcs/sim_1/new/SCPU_tb.v,1681733828,verilog,,,,SCPU_tb,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/CPU_test.srcs/sources_1/ip/RAM_B_0/sim/RAM_B_0.v,1684640416,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_Ex/ALU_more.v,,RAM_B_0,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/CPU_test.srcs/sources_1/ip/ROM_D_0/sim/ROM_D_0.v,1685522705,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/CPU_test.srcs/sources_1/ip/RAM_B_0/sim/RAM_B_0.v,,ROM_D_0,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/CPU_test.v,1685116418,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Ex_reg_Mem.v,,CPU_test,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Ex_reg_Mem.v,1685116794,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/ID_reg_Ex.v,,Ex_reg_Mem,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/ID_reg_Ex.v,1685116749,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/IF_reg_ID.v,,ID_reg_Ex,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/IF_reg_ID.v,1684675877,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/ImmGen.v,,IF_reg_ID,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/MUX2T1_32.v,1682995831,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Mem_reg_WB.v,,MUX2T1_32,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Mem_reg_WB.v,1684828364,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_CPU.v,,Mem_reg_WB,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_CPU.v,1685495724,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_Ex/Pipeline_Ex.v,,Pipeline_CPU,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_Ex/ALU_more.v,1680526345,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/CPU_test.v,,ALU_more,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_Ex/Pipeline_Ex.v,1684767306,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/Pipeline_ID.v,,Pipeline_Ex,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/ImmGen.v,1683976499,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/MUX2T1_32.v,,ImmGen,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/Pipeline_ID.v,1685116616,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_IF/Pipeline_IF.v,,Pipeline_ID,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/Regs.v,1680523465,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/SCPU_ctrl.v,,Regs,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/SCPU_ctrl.v,1683987879,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/forward.v,,SCPU_ctrl_more,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_IF/Pipeline_IF.v,1684027199,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_Mem.v,,Pipeline_IF,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_IF/REG32.v,1681734403,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_ID/Regs.v,,REG32,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_Mem.v,1684026507,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_WB.v,,Pipeline_Mem,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_WB.v,1683979382,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/Pipeline_IF/REG32.v,,Pipeline_WB,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/forward.v,1684216732,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/stall.v,,forward,,,,,,,,
+E:/ComputerOrnazation/lab5_4/CPU_test/pipeline_perfect/stall.v,1684830406,verilog,,E:/ComputerOrnazation/lab5_4/CPU_test/CPU_test.srcs/sim_1/new/SCPU_tb.v,,stall,,,,,,,,

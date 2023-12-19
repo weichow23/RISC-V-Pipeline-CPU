@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPU_test.srcs/sources_1/ip/ROM_D_0/sim/ROM_D_0.v" \
+"../../../../CPU_test.srcs/sources_1/ip/RAM_B_0/sim/RAM_B_0.v" \
+"../../../../pipeline_perfect/Pipeline_Ex/ALU_more.v" \
+"../../../../pipeline_perfect/CPU_test.v" \
+"../../../../pipeline_perfect/Ex_reg_Mem.v" \
+"../../../../pipeline_perfect/ID_reg_Ex.v" \
+"../../../../pipeline_perfect/IF_reg_ID.v" \
+"../../../../pipeline_perfect/Pipeline_ID/ImmGen.v" \
+"../../../../pipeline_perfect/MUX2T1_32.v" \
+"../../../../pipeline_perfect/Mem_reg_WB.v" \
+"../../../../pipeline_perfect/Pipeline_CPU.v" \
+"../../../../pipeline_perfect/Pipeline_Ex/Pipeline_Ex.v" \
+"../../../../pipeline_perfect/Pipeline_ID/Pipeline_ID.v" \
+"../../../../pipeline_perfect/Pipeline_IF/Pipeline_IF.v" \
+"../../../../pipeline_perfect/Pipeline_Mem.v" \
+"../../../../pipeline_perfect/Pipeline_WB.v" \
+"../../../../pipeline_perfect/Pipeline_IF/REG32.v" \
+"../../../../pipeline_perfect/Pipeline_ID/Regs.v" \
+"../../../../pipeline_perfect/Pipeline_ID/SCPU_ctrl.v" \
+"../../../../pipeline_perfect/forward.v" \
+"../../../../pipeline_perfect/stall.v" \
+"../../../../CPU_test.srcs/sim_1/new/SCPU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
