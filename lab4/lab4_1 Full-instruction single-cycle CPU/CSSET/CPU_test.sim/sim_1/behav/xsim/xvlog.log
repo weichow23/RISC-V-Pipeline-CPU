@@ -1,0 +1,29 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/ip/ROM_D_0/sim/ROM_D_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/ip/RAM_B_0/sim/RAM_B_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/ALU_more_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_more_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/Datapath_more_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath_more_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/REG32_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/Regs_more_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs_more_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/Rv_int_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rv_int_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/SCPU_ctrl_more_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/SCPU_more_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_more_int
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'MemRW' is not allowed [E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/SCPU_more_int.v:86]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab4_1/CPU_test/CPU_test.srcs/sim_1/new/testbench_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_tb

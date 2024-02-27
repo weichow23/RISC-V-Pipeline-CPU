@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 23 19:53:21 2023
+# Process ID: 7880
+# Current directory: E:/ComputerOrnazation/lab5_2_3/CPU_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24044 E:\ComputerOrnazation\lab5_2_3\CPU_test\lab2_final.xpr
+# Log file: E:/ComputerOrnazation/lab5_2_3/CPU_test/vivado.log
+# Journal file: E:/ComputerOrnazation/lab5_2_3/CPU_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+close_hw_manager
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab5_2_3/CPU_test/tb_behav.wcfg
+source tb.tcl
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+close_hw_manager
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/m0/u1}} 
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/m0/u1/clka}} {{/tb/m0/u1/wea}} {{/tb/m0/u1/addra}} {{/tb/m0/u1/dina}} {{/tb/m0/u1/douta}} 
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab5_2_3/CPU_test/tb_behav.wcfg
+source tb.tcl
+save_wave_config {E:/ComputerOrnazation/lab5_2_3/CPU_test/tb_behav.wcfg}
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/m0/u1/clka}} {{/tb/m0/u1/wea}} {{/tb/m0/u1/addra}} {{/tb/m0/u1/dina}} {{/tb/m0/u1/douta}} 
+relaunch_sim
+save_wave_config {E:/ComputerOrnazation/lab5_2_3/CPU_test/tb_behav.wcfg}
+close_sim

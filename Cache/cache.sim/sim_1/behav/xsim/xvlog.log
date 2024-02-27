@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab6/cache.srcs/sources_1/new/Data_ram.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Data_ram
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab6/cache.srcs/sources_1/new/Tag_ram.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Tag_ram
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab6/cache.srcs/sources_1/new/cache.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cache
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab6/cache.srcs/sim_1/new/cache_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cache_tb

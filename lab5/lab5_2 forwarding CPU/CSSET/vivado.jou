@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 31 16:38:23 2023
+# Process ID: 32552
+# Current directory: E:/ComputerOrnazation/lab5_4/CSSET
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29888 E:\ComputerOrnazation\lab5_4\CSSET\CPU_test.xpr
+# Log file: E:/ComputerOrnazation/lab5_4/CSSET/vivado.log
+# Journal file: E:/ComputerOrnazation/lab5_4/CSSET\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.xpr
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.srcs/sources_1/ip/RAM_B_0/RAM_B_0.xci]
+export_ip_user_files -of_objects [get_files E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.srcs/sources_1/ip/RAM_B_0/RAM_B_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.srcs/sources_1/ip/RAM_B_0/RAM_B_0.xci] -directory E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.ip_user_files/sim_scripts -ip_user_files_dir E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.ip_user_files -ipstatic_source_dir E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.cache/compile_simlib/modelsim} {questa=E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.cache/compile_simlib/questa} {riviera=E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.cache/compile_simlib/riviera} {activehdl=E:/ComputerOrnazation/lab5_4/CSSET/CPU_test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 17 12:37:16 2023
+# Process ID: 6680
+# Current directory: E:/ComputerOrnazation/lab5_2_3/CPU_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17352 E:\ComputerOrnazation\lab5_2_3\CPU_test\lab2_final.xpr
+# Log file: E:/ComputerOrnazation/lab5_2_3/CPU_test/vivado.log
+# Journal file: E:/ComputerOrnazation/lab5_2_3/CPU_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.xpr
+update_compile_order -fileset sources_1
+
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab5_2_3/CPU_test/tb_behav.wcfg
+source tb.tcl
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/m0/u3/u9/Data_out_WB}} 
+save_wave_config {E:/ComputerOrnazation/lab5_2_3/CPU_test/tb_behav.wcfg}
+relaunch_sim
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+close_hw_manager
+close_sim

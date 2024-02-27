@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  1 10:15:37 2023
+# Process ID: 12392
+# Current directory: E:/ComputerOrnazation/lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30712 E:\ComputerOrnazation\lab6\cache.xpr
+# Log file: E:/ComputerOrnazation/lab6/vivado.log
+# Journal file: E:/ComputerOrnazation/lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab6/cache.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {300ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {170ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config E:/ComputerOrnazation/lab6/tb_behav.wcfg
+source tb.tcl
+export_ip_user_files -of_objects  [get_files E:/ComputerOrnazation/lab6/tb_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/ComputerOrnazation/lab6/tb_behav.wcfg
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {370ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {500ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {350ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 7}
+add_wave {{/tb/cache/dirty}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb/cache/hit}} 
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 8}
+add_wave {{/tb/cache/dirty}} 
+relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/tb/cache/hit}} 
+relaunch_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/ComputerOrnazation/lab6/cache.srcs/sim_1/new/cache_tb.v w ]
+add_files -fileset sim_1 E:/ComputerOrnazation/lab6/cache.srcs/sim_1/new/cache_tb.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files E:/ComputerOrnazation/lab6/cache.srcs/sim_1/new/tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/ComputerOrnazation/lab6/cache.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation

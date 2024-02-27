@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  1 12:00:08 2023
+# Process ID: 23836
+# Current directory: E:/ComputerOrnazation/lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4768 E:\ComputerOrnazation\lab6\cache.xpr
+# Log file: E:/ComputerOrnazation/lab6/vivado.log
+# Journal file: E:/ComputerOrnazation/lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab6/cache.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cache_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/cache_tb/cache/dirty}} 
+current_wave_config {Untitled 1}
+add_wave {{/cache_tb/cache/hit}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/cache_tb/cache/state}} 
+relaunch_sim
+close_sim
+launch_simulation

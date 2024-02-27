@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="SCPU_more_int_0_synth_1" LaunchDir="E:/RISC_V_my/lab/lab04/CPU_test/CPU_test.runs/SCPU_more_int_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-	<Parameters>
-		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
-		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
-	</Parameters>
-</Runs>
-

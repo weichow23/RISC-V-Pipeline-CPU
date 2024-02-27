@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 17 13:10:35 2023
+# Process ID: 12432
+# Current directory: E:/ComputerOrnazation/lab4_4/CSSET
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10800 E:\ComputerOrnazation\lab4_4\CSSET\CPU_test.xpr
+# Log file: E:/ComputerOrnazation/lab4_4/CSSET/vivado.log
+# Journal file: E:/ComputerOrnazation/lab4_4/CSSET\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab4_4/CSSET/CPU_test.xpr
+update_compile_order -fileset sources_1

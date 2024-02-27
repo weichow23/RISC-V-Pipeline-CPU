@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>unknown</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>SCPU_ctrl_1</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name">SCPU_ctrl_1</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions/>
+  </spirit:vendorExtensions>
+</spirit:component>

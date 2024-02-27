@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab2_final.srcs/sources_1/ip/ROM_D_0/sim/ROM_D_0.v" \
+"../../../../lab2_final.ip_user_files/ip/RAM_B/sim/RAM_B.v" \
+"../../../../IP/EX/ALU_more.v" \
+"../../../../IP/CPU_test.v" \
+"../../../../IP/Ex_reg_Mem.v" \
+"../../../../IP/ID_reg_Ex.v" \
+"../../../../IP/IF_reg_ID.v" \
+"../../../../IP/ID/ImmGen.v" \
+"../../../../IP/MUX2T1_32.v" \
+"../../../../IP/Mem_reg_WB.v" \
+"../../../../IP/Pipeline_CPU.v" \
+"../../../../IP/Pipeline_Ex.v" \
+"../../../../IP/Pipeline_ID.v" \
+"../../../../IP/Pipeline_IF.v" \
+"../../../../IP/Pipeline_Mem.v" \
+"../../../../IP/Pipeline_WB.v" \
+"../../../../IP/IF/REG32.v" \
+"../../../../IP/ID/Regs.v" \
+"../../../../IP/ID/SCPU_ctrl.v" \
+"../../../../lab2_final.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

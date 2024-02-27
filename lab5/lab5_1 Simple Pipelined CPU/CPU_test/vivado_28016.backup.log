@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 22 19:15:12 2023
+# Process ID: 28016
+# Current directory: E:/ComputerOrnazation/lab5_2_3/CPU_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16448 E:\ComputerOrnazation\lab5_2_3\CPU_test\lab2_final.xpr
+# Log file: E:/ComputerOrnazation/lab5_2_3/CPU_test/vivado.log
+# Journal file: E:/ComputerOrnazation/lab5_2_3/CPU_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab5_2_3/CPU_test/lab2_final.xpr
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/ComputerOrnazation/lab5_2_3/VGA_pipeline'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/ComputerOrnazation/lab5_2_3/VGA_pipeline'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See E:/ComputerOrnazation/lab5_2_3/CPU_test/vivado_pid28016.debug)
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.645 ; gain = 0.000
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 22 19:15:39 2023...

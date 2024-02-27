@@ -1,0 +1,698 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 16 21:16:03 2023
+# Process ID: 24820
+# Current directory: E:/ComputerOrnazation/lab3/div32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11752 E:\ComputerOrnazation\lab3\div32\div32.xpr
+# Log file: E:/ComputerOrnazation/lab3/div32/vivado.log
+# Journal file: E:/ComputerOrnazation/lab3/div32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ComputerOrnazation/lab3/div32/div32.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/ComputerOrnazation/lab3/div32/div32.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1109.617 ; gain = 0.000
+set_property -name {xsim.simulate.runtime} -value {3000ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 3000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 3000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1109.617 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 3000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 3000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1191.789 ; gain = 0.000
+set_property -name {xsim.simulate.runtime} -value {5000ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+$stop called at time : 3415 ns : File "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" Line 83
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1191.789 ; gain = 0.000
+set_property -name {xsim.simulate.runtime} -value {4000ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4000ns
+$stop called at time : 3415 ns : File "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" Line 83
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1197.910 ; gain = 6.121
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+ERROR: [VRFC 10-4982] syntax error near 'end' [E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v:84]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword end used in incorrect context [E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v:84]
+ERROR: [VRFC 10-2865] module 'div32_tb' ignored due to previous errors [E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v:21]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1204.422 ; gain = 6.512
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'zero' is not permitted [E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v:41]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'zero' is not permitted [E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v:41]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1208.500 ; gain = 4.078
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1208.707 ; gain = 0.207
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1209.777 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ComputerOrnazation/lab3/div32/div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div32
+Compiling module xil_defaultlib.div32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1209.777 ; gain = 0.000
+set_property -name {xsim.simulate.runtime} -value {4500ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'div32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj div32_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+"xelab -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 053af04f59284d03ba0f26f823cbc6a8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div32_tb_behav xil_defaultlib.div32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/ComputerOrnazation/lab3/div32/div32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div32_tb_behav -key {Behavioral:sim_1:Functional:div32_tb} -tclbatch {div32_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source div32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4500ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4500ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1209.777 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 16 21:51:48 2023...
