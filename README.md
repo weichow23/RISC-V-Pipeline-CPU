@@ -2,6 +2,10 @@
 
 此仓库为2023年 刘海风老师的计算机组成与设计课程的实验代码和报告仓库， 实验指导内容为https://guahao31.github.io/2023_CO/
 
+与普通班在VGA的显示内容方面存在一定的差异
+
+
+
 - Lab0: 安装并使用 Vivado
 
 - Lab1: 简单模块设计（ALU / RegFile / 有限状态机）
@@ -31,3 +35,10 @@
 # bootstrap
 
 涉及VGA的请把初始化文件放在D盘的根目录下，lab5以前的VGA的两个初始化文件请选择lab4，lab5的请选择lab5
+
+修改编辑器为vscode
+
+```shell
+D:\vscode\Microsoft VS Code\Code.exe -g [file name]:[line number]
+```
+
